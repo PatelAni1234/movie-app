@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sassy+Frass&display=swap");
+.header {
+  background-color: #39445a;
+  height: 55px;
+  font-size: 2rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  position: fixed;
+  box-shadow: 0px 1px 10px black;
+  z-index: 100000;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 1.6rem;
+  }
+}
